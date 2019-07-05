@@ -9,4 +9,5 @@ Generating text from file -
 >> python markov.py [-h] [-w WORDS] <filename>
 ```
 
-Use `-w` option to specify minimum number of words in output
+Use `-w` option to specify minimum number of words in output.
+Sample text files provided.
