@@ -1,4 +1,4 @@
-# MakovTextPy
+# MarkovTextPy
 Markov chain text generator written in python.
 
 ## Usage
