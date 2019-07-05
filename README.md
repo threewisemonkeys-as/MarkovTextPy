@@ -10,4 +10,5 @@ Generating text from file -
 ```
 
 Use `-w` option to specify minimum number of words in output.
+
 Sample text files provided.
