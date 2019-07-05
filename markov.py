@@ -23,11 +23,10 @@ class MarkovModel:
 	def build_dict(self):
 		self.word_dict = {}
 		for word1, word2 in self.make_pairs():
-			if not '-' in word1 and '-' not in word2:
-				if word1 in self.word_dict.keys():
-					self.word_dict[word1].append(word2)
-				else:
-					self.word_dict[word1] = [word2]
+			if word1 in self.word_dict.keys():
+				self.word_dict[word1].append(word2)
+			else:
+				self.word_dict[word1] = [word2]
 
 	def gen_first_word(self):
 		first_word = np.random.choice(self.corpus)
