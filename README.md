@@ -1,2 +1,2 @@
-# markov-text-generator-py
+# MakovTextPy
 Markov chain text generator written in python
